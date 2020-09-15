@@ -164,6 +164,7 @@ namespace GS_zadanie2
         private void buttonClear_Click(object sender, EventArgs e)
         {
             listBoxNIP.Items.Clear();
+            buttonAdd.Enabled = true;
         }
 
         private void textBoxNIP_TextChanged(object sender, EventArgs e)
