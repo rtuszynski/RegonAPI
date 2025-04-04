@@ -1,4 +1,4 @@
-﻿using GS_zadanie2.GUS;
+﻿using RegonAPI.GUS;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +17,7 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Xsl;
 
-namespace GS_zadanie2
+namespace RegonAPI
 {
     public partial class BIR1 : Form, IUslugaBIRzewnPubl
     {

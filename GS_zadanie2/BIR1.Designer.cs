@@ -1,4 +1,4 @@
-﻿namespace GS_zadanie2
+﻿namespace RegonAPI
 {
     partial class BIR1
     {

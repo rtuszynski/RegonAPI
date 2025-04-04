@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GS_zadanie2
+namespace RegonAPI
 {
     static class Program
     {

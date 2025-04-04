@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GS_zadanie2.Properties
+namespace RegonAPI.Properties
 {
 
 

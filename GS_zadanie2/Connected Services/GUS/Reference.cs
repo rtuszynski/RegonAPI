@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GS_zadanie2.GUS {
+namespace RegonAPI.GUS {
     using System.Runtime.Serialization;
     using System;
     
@@ -160,45 +160,45 @@ namespace GS_zadanie2.GUS {
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/2014/07) komunikatu GetValueRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/2014/07/IUslugaBIR/GetValue", ReplyAction="http://CIS/BIR/2014/07/IUslugaBIR/GetValueResponse")]
-        GS_zadanie2.GUS.GetValueResponse GetValue(GS_zadanie2.GUS.GetValueRequest request);
+        RegonAPI.GUS.GetValueResponse GetValue(RegonAPI.GUS.GetValueRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/2014/07/IUslugaBIR/GetValue", ReplyAction="http://CIS/BIR/2014/07/IUslugaBIR/GetValueResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.GetValueResponse> GetValueAsync(GS_zadanie2.GUS.GetValueRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.GetValueResponse> GetValueAsync(RegonAPI.GUS.GetValueRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/PUBL/2014/07) komunikatu ZalogujRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/Zaloguj", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/ZalogujResponse")]
-        GS_zadanie2.GUS.ZalogujResponse Zaloguj(GS_zadanie2.GUS.ZalogujRequest request);
+        RegonAPI.GUS.ZalogujResponse Zaloguj(RegonAPI.GUS.ZalogujRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/Zaloguj", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/ZalogujResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.ZalogujResponse> ZalogujAsync(GS_zadanie2.GUS.ZalogujRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.ZalogujResponse> ZalogujAsync(RegonAPI.GUS.ZalogujRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/PUBL/2014/07) komunikatu WylogujRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/Wyloguj", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/WylogujResponse")]
-        GS_zadanie2.GUS.WylogujResponse Wyloguj(GS_zadanie2.GUS.WylogujRequest request);
+        RegonAPI.GUS.WylogujResponse Wyloguj(RegonAPI.GUS.WylogujRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/Wyloguj", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/WylogujResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.WylogujResponse> WylogujAsync(GS_zadanie2.GUS.WylogujRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.WylogujResponse> WylogujAsync(RegonAPI.GUS.WylogujRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/PUBL/2014/07) komunikatu DaneSzukajPodmiotyRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukajPodmioty", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukajPodmiotyResponse")]
-        GS_zadanie2.GUS.DaneSzukajPodmiotyResponse DaneSzukajPodmioty(GS_zadanie2.GUS.DaneSzukajPodmiotyRequest request);
+        RegonAPI.GUS.DaneSzukajPodmiotyResponse DaneSzukajPodmioty(RegonAPI.GUS.DaneSzukajPodmiotyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukajPodmioty", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukajPodmiotyResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DaneSzukajPodmiotyResponse> DaneSzukajPodmiotyAsync(GS_zadanie2.GUS.DaneSzukajPodmiotyRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.DaneSzukajPodmiotyResponse> DaneSzukajPodmiotyAsync(RegonAPI.GUS.DaneSzukajPodmiotyRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/PUBL/2014/07) komunikatu DanePobierzPelnyRaportRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzPelnyRaport", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzPelnyRaportResponse")]
-        GS_zadanie2.GUS.DanePobierzPelnyRaportResponse DanePobierzPelnyRaport(GS_zadanie2.GUS.DanePobierzPelnyRaportRequest request);
+        RegonAPI.GUS.DanePobierzPelnyRaportResponse DanePobierzPelnyRaport(RegonAPI.GUS.DanePobierzPelnyRaportRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzPelnyRaport", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzPelnyRaportResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzPelnyRaportResponse> DanePobierzPelnyRaportAsync(GS_zadanie2.GUS.DanePobierzPelnyRaportRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzPelnyRaportResponse> DanePobierzPelnyRaportAsync(RegonAPI.GUS.DanePobierzPelnyRaportRequest request);
         
         // CODEGEN: Trwa generowanie kontraktu komunikatu, ponieważ przestrzeń nazw otoki (http://CIS/BIR/PUBL/2014/07) komunikatu DanePobierzRaportZbiorczyRequest nie pasuje do domyślnej wartości (http://tempuri.org/).
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzRaportZbiorczy", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzRaportZbiorczyResponse")]
-        GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse DanePobierzRaportZbiorczy(GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest request);
+        RegonAPI.GUS.DanePobierzRaportZbiorczyResponse DanePobierzRaportZbiorczy(RegonAPI.GUS.DanePobierzRaportZbiorczyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzRaportZbiorczy", ReplyAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DanePobierzRaportZbiorczyResponse")]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse> DanePobierzRaportZbiorczyAsync(GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest request);
+        System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzRaportZbiorczyResponse> DanePobierzRaportZbiorczyAsync(RegonAPI.GUS.DanePobierzRaportZbiorczyRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -310,12 +310,12 @@ namespace GS_zadanie2.GUS {
     public partial class DaneSzukajPodmiotyRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://CIS/BIR/PUBL/2014/07", Order=0)]
-        public GS_zadanie2.GUS.ParametryWyszukiwania pParametryWyszukiwania;
+        public RegonAPI.GUS.ParametryWyszukiwania pParametryWyszukiwania;
         
         public DaneSzukajPodmiotyRequest() {
         }
         
-        public DaneSzukajPodmiotyRequest(GS_zadanie2.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
+        public DaneSzukajPodmiotyRequest(RegonAPI.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
             this.pParametryWyszukiwania = pParametryWyszukiwania;
         }
     }
@@ -414,12 +414,12 @@ namespace GS_zadanie2.GUS {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IUslugaBIRzewnPublChannel : GS_zadanie2.GUS.IUslugaBIRzewnPubl, System.ServiceModel.IClientChannel {
+    public interface IUslugaBIRzewnPublChannel : RegonAPI.GUS.IUslugaBIRzewnPubl, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class UslugaBIRzewnPublClient : System.ServiceModel.ClientBase<GS_zadanie2.GUS.IUslugaBIRzewnPubl>, GS_zadanie2.GUS.IUslugaBIRzewnPubl {
+    public partial class UslugaBIRzewnPublClient : System.ServiceModel.ClientBase<RegonAPI.GUS.IUslugaBIRzewnPubl>, RegonAPI.GUS.IUslugaBIRzewnPubl {
         
         public UslugaBIRzewnPublClient() {
         }
@@ -441,145 +441,145 @@ namespace GS_zadanie2.GUS {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.GetValueResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.GetValue(GS_zadanie2.GUS.GetValueRequest request) {
+        RegonAPI.GUS.GetValueResponse RegonAPI.GUS.IUslugaBIRzewnPubl.GetValue(RegonAPI.GUS.GetValueRequest request) {
             return base.Channel.GetValue(request);
         }
         
         public string GetValue(string pNazwaParametru) {
-            GS_zadanie2.GUS.GetValueRequest inValue = new GS_zadanie2.GUS.GetValueRequest();
+            RegonAPI.GUS.GetValueRequest inValue = new RegonAPI.GUS.GetValueRequest();
             inValue.pNazwaParametru = pNazwaParametru;
-            GS_zadanie2.GUS.GetValueResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).GetValue(inValue);
+            RegonAPI.GUS.GetValueResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).GetValue(inValue);
             return retVal.GetValueResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.GetValueResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.GetValueAsync(GS_zadanie2.GUS.GetValueRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.GetValueResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.GetValueAsync(RegonAPI.GUS.GetValueRequest request) {
             return base.Channel.GetValueAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.GetValueResponse> GetValueAsync(string pNazwaParametru) {
-            GS_zadanie2.GUS.GetValueRequest inValue = new GS_zadanie2.GUS.GetValueRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.GetValueResponse> GetValueAsync(string pNazwaParametru) {
+            RegonAPI.GUS.GetValueRequest inValue = new RegonAPI.GUS.GetValueRequest();
             inValue.pNazwaParametru = pNazwaParametru;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).GetValueAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).GetValueAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.ZalogujResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.Zaloguj(GS_zadanie2.GUS.ZalogujRequest request) {
+        RegonAPI.GUS.ZalogujResponse RegonAPI.GUS.IUslugaBIRzewnPubl.Zaloguj(RegonAPI.GUS.ZalogujRequest request) {
             return base.Channel.Zaloguj(request);
         }
         
         public string Zaloguj(string pKluczUzytkownika) {
-            GS_zadanie2.GUS.ZalogujRequest inValue = new GS_zadanie2.GUS.ZalogujRequest();
+            RegonAPI.GUS.ZalogujRequest inValue = new RegonAPI.GUS.ZalogujRequest();
             inValue.pKluczUzytkownika = pKluczUzytkownika;
-            GS_zadanie2.GUS.ZalogujResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).Zaloguj(inValue);
+            RegonAPI.GUS.ZalogujResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).Zaloguj(inValue);
             return retVal.ZalogujResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.ZalogujResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.ZalogujAsync(GS_zadanie2.GUS.ZalogujRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.ZalogujResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.ZalogujAsync(RegonAPI.GUS.ZalogujRequest request) {
             return base.Channel.ZalogujAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.ZalogujResponse> ZalogujAsync(string pKluczUzytkownika) {
-            GS_zadanie2.GUS.ZalogujRequest inValue = new GS_zadanie2.GUS.ZalogujRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.ZalogujResponse> ZalogujAsync(string pKluczUzytkownika) {
+            RegonAPI.GUS.ZalogujRequest inValue = new RegonAPI.GUS.ZalogujRequest();
             inValue.pKluczUzytkownika = pKluczUzytkownika;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).ZalogujAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).ZalogujAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.WylogujResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.Wyloguj(GS_zadanie2.GUS.WylogujRequest request) {
+        RegonAPI.GUS.WylogujResponse RegonAPI.GUS.IUslugaBIRzewnPubl.Wyloguj(RegonAPI.GUS.WylogujRequest request) {
             return base.Channel.Wyloguj(request);
         }
         
         public bool Wyloguj(string pIdentyfikatorSesji) {
-            GS_zadanie2.GUS.WylogujRequest inValue = new GS_zadanie2.GUS.WylogujRequest();
+            RegonAPI.GUS.WylogujRequest inValue = new RegonAPI.GUS.WylogujRequest();
             inValue.pIdentyfikatorSesji = pIdentyfikatorSesji;
-            GS_zadanie2.GUS.WylogujResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).Wyloguj(inValue);
+            RegonAPI.GUS.WylogujResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).Wyloguj(inValue);
             return retVal.WylogujResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.WylogujResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.WylogujAsync(GS_zadanie2.GUS.WylogujRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.WylogujResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.WylogujAsync(RegonAPI.GUS.WylogujRequest request) {
             return base.Channel.WylogujAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.WylogujResponse> WylogujAsync(string pIdentyfikatorSesji) {
-            GS_zadanie2.GUS.WylogujRequest inValue = new GS_zadanie2.GUS.WylogujRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.WylogujResponse> WylogujAsync(string pIdentyfikatorSesji) {
+            RegonAPI.GUS.WylogujRequest inValue = new RegonAPI.GUS.WylogujRequest();
             inValue.pIdentyfikatorSesji = pIdentyfikatorSesji;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).WylogujAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).WylogujAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.DaneSzukajPodmiotyResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.DaneSzukajPodmioty(GS_zadanie2.GUS.DaneSzukajPodmiotyRequest request) {
+        RegonAPI.GUS.DaneSzukajPodmiotyResponse RegonAPI.GUS.IUslugaBIRzewnPubl.DaneSzukajPodmioty(RegonAPI.GUS.DaneSzukajPodmiotyRequest request) {
             return base.Channel.DaneSzukajPodmioty(request);
         }
         
-        public string DaneSzukajPodmioty(GS_zadanie2.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
-            GS_zadanie2.GUS.DaneSzukajPodmiotyRequest inValue = new GS_zadanie2.GUS.DaneSzukajPodmiotyRequest();
+        public string DaneSzukajPodmioty(RegonAPI.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
+            RegonAPI.GUS.DaneSzukajPodmiotyRequest inValue = new RegonAPI.GUS.DaneSzukajPodmiotyRequest();
             inValue.pParametryWyszukiwania = pParametryWyszukiwania;
-            GS_zadanie2.GUS.DaneSzukajPodmiotyResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DaneSzukajPodmioty(inValue);
+            RegonAPI.GUS.DaneSzukajPodmiotyResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DaneSzukajPodmioty(inValue);
             return retVal.DaneSzukajPodmiotyResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DaneSzukajPodmiotyResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.DaneSzukajPodmiotyAsync(GS_zadanie2.GUS.DaneSzukajPodmiotyRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.DaneSzukajPodmiotyResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.DaneSzukajPodmiotyAsync(RegonAPI.GUS.DaneSzukajPodmiotyRequest request) {
             return base.Channel.DaneSzukajPodmiotyAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.DaneSzukajPodmiotyResponse> DaneSzukajPodmiotyAsync(GS_zadanie2.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
-            GS_zadanie2.GUS.DaneSzukajPodmiotyRequest inValue = new GS_zadanie2.GUS.DaneSzukajPodmiotyRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.DaneSzukajPodmiotyResponse> DaneSzukajPodmiotyAsync(RegonAPI.GUS.ParametryWyszukiwania pParametryWyszukiwania) {
+            RegonAPI.GUS.DaneSzukajPodmiotyRequest inValue = new RegonAPI.GUS.DaneSzukajPodmiotyRequest();
             inValue.pParametryWyszukiwania = pParametryWyszukiwania;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DaneSzukajPodmiotyAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DaneSzukajPodmiotyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.DanePobierzPelnyRaportResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.DanePobierzPelnyRaport(GS_zadanie2.GUS.DanePobierzPelnyRaportRequest request) {
+        RegonAPI.GUS.DanePobierzPelnyRaportResponse RegonAPI.GUS.IUslugaBIRzewnPubl.DanePobierzPelnyRaport(RegonAPI.GUS.DanePobierzPelnyRaportRequest request) {
             return base.Channel.DanePobierzPelnyRaport(request);
         }
         
         public string DanePobierzPelnyRaport(string pRegon, string pNazwaRaportu) {
-            GS_zadanie2.GUS.DanePobierzPelnyRaportRequest inValue = new GS_zadanie2.GUS.DanePobierzPelnyRaportRequest();
+            RegonAPI.GUS.DanePobierzPelnyRaportRequest inValue = new RegonAPI.GUS.DanePobierzPelnyRaportRequest();
             inValue.pRegon = pRegon;
             inValue.pNazwaRaportu = pNazwaRaportu;
-            GS_zadanie2.GUS.DanePobierzPelnyRaportResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzPelnyRaport(inValue);
+            RegonAPI.GUS.DanePobierzPelnyRaportResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzPelnyRaport(inValue);
             return retVal.DanePobierzPelnyRaportResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzPelnyRaportResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.DanePobierzPelnyRaportAsync(GS_zadanie2.GUS.DanePobierzPelnyRaportRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzPelnyRaportResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.DanePobierzPelnyRaportAsync(RegonAPI.GUS.DanePobierzPelnyRaportRequest request) {
             return base.Channel.DanePobierzPelnyRaportAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzPelnyRaportResponse> DanePobierzPelnyRaportAsync(string pRegon, string pNazwaRaportu) {
-            GS_zadanie2.GUS.DanePobierzPelnyRaportRequest inValue = new GS_zadanie2.GUS.DanePobierzPelnyRaportRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzPelnyRaportResponse> DanePobierzPelnyRaportAsync(string pRegon, string pNazwaRaportu) {
+            RegonAPI.GUS.DanePobierzPelnyRaportRequest inValue = new RegonAPI.GUS.DanePobierzPelnyRaportRequest();
             inValue.pRegon = pRegon;
             inValue.pNazwaRaportu = pNazwaRaportu;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzPelnyRaportAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzPelnyRaportAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse GS_zadanie2.GUS.IUslugaBIRzewnPubl.DanePobierzRaportZbiorczy(GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest request) {
+        RegonAPI.GUS.DanePobierzRaportZbiorczyResponse RegonAPI.GUS.IUslugaBIRzewnPubl.DanePobierzRaportZbiorczy(RegonAPI.GUS.DanePobierzRaportZbiorczyRequest request) {
             return base.Channel.DanePobierzRaportZbiorczy(request);
         }
         
         public string DanePobierzRaportZbiorczy(string pDataRaportu, string pNazwaRaportu) {
-            GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest inValue = new GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest();
+            RegonAPI.GUS.DanePobierzRaportZbiorczyRequest inValue = new RegonAPI.GUS.DanePobierzRaportZbiorczyRequest();
             inValue.pDataRaportu = pDataRaportu;
             inValue.pNazwaRaportu = pNazwaRaportu;
-            GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse retVal = ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzRaportZbiorczy(inValue);
+            RegonAPI.GUS.DanePobierzRaportZbiorczyResponse retVal = ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzRaportZbiorczy(inValue);
             return retVal.DanePobierzRaportZbiorczyResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse> GS_zadanie2.GUS.IUslugaBIRzewnPubl.DanePobierzRaportZbiorczyAsync(GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest request) {
+        System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzRaportZbiorczyResponse> RegonAPI.GUS.IUslugaBIRzewnPubl.DanePobierzRaportZbiorczyAsync(RegonAPI.GUS.DanePobierzRaportZbiorczyRequest request) {
             return base.Channel.DanePobierzRaportZbiorczyAsync(request);
         }
         
-        public System.Threading.Tasks.Task<GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse> DanePobierzRaportZbiorczyAsync(string pDataRaportu, string pNazwaRaportu) {
-            GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest inValue = new GS_zadanie2.GUS.DanePobierzRaportZbiorczyRequest();
+        public System.Threading.Tasks.Task<RegonAPI.GUS.DanePobierzRaportZbiorczyResponse> DanePobierzRaportZbiorczyAsync(string pDataRaportu, string pNazwaRaportu) {
+            RegonAPI.GUS.DanePobierzRaportZbiorczyRequest inValue = new RegonAPI.GUS.DanePobierzRaportZbiorczyRequest();
             inValue.pDataRaportu = pDataRaportu;
             inValue.pNazwaRaportu = pNazwaRaportu;
-            return ((GS_zadanie2.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzRaportZbiorczyAsync(inValue);
+            return ((RegonAPI.GUS.IUslugaBIRzewnPubl)(this)).DanePobierzRaportZbiorczyAsync(inValue);
         }
     }
 }
