@@ -76,22 +76,22 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.DanePobierzPelnyRaportResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.DanePobierzPelnyRaportResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.DanePobierzRaportZbiorczyResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.DanePobierzRaportZbiorczyResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.DaneSzukajPodmiotyResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.DaneSzukajPodmiotyResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.GetValueResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.GetValueResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.WylogujResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.WylogujResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\GUS\GS_zadanie2.GUS.ZalogujResponse.datasource">
+    <None Include="Connected Services\GUS\RegonAPI.GUS.ZalogujResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\GUS\UslugaBIRzewnPubl.wsdl" />
