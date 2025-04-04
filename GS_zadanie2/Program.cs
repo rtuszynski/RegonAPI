@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using RegonAPI.GUS;
+using System;
 using System.Windows.Forms;
 
 namespace RegonAPI
@@ -16,7 +14,8 @@ namespace RegonAPI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BIR1());
+            var searchService = new Services.BusinessSearchService(new UslugaBIRzewnPublClient());
+            Application.Run(new BIR1(searchService));
         }
     }
 }
