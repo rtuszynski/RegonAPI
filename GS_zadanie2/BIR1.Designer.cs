@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BIR1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.textBoxNIP = new System.Windows.Forms.TextBox();
             this.label1NIP = new System.Windows.Forms.Label();
@@ -96,8 +96,8 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -209,11 +209,11 @@
             // 
             this.label2InfoAutor.AutoSize = true;
             this.label2InfoAutor.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2InfoAutor.Location = new System.Drawing.Point(12, 448);
+            this.label2InfoAutor.Location = new System.Drawing.Point(12, 474);
             this.label2InfoAutor.Name = "label2InfoAutor";
-            this.label2InfoAutor.Size = new System.Drawing.Size(134, 39);
+            this.label2InfoAutor.Size = new System.Drawing.Size(66, 13);
             this.label2InfoAutor.TabIndex = 10;
-            this.label2InfoAutor.Text = "C# .NET Framework 4.8\r\nAutor: Tuszyński Rafał\r\ntuszynski.rafal@gmail.com";
+            this.label2InfoAutor.Text = "Usługa BIR1";
             this.label2InfoAutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelErrorMsg2
@@ -251,7 +251,7 @@
             this.Name = "BIR1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Usługa BIR1 zadanie C#.2";
+            this.Text = "Usługa BIR1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panelMenuBackground.ResumeLayout(false);
             this.panelMenuBackground.PerformLayout();
