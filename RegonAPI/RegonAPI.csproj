@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C03D24BC-7600-4649-88AE-EA54AB9C74D0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GS_zadanie2</RootNamespace>
+    <RootNamespace>RegonAPI</RootNamespace>
     <AssemblyName>RegonAPI</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
